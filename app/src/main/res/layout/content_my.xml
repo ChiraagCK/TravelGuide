@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".MyActivity"
+    android:background="@drawable/main">
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="200dp"
+        android:layout_marginBottom="20dp"
+        android:layout_height="wrap_content"
+        android:text="SHOW CORDINATES"
+        android:layout_marginLeft="60dp"
+        android:textColor="@android:color/white"
+        android:id="@+id/btnShowLocation"
+        android:background="@color/orange"
+        android:layout_marginTop="50dp"
+        android:padding="20dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="SHOW ADDRESS"
+        android:id="@+id/btnShowAddress"
+        android:background="@color/orange"
+        android:layout_below="@+id/btnShowLocation"
+        android:layout_alignParentStart="true"
+        android:textColor="@android:color/white"
+        android:layout_alignParentLeft="true"
+        android:padding="20dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginBottom="15dp"
+        />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="START GUIDE"
+        android:id="@+id/btnStartGuide"
+        android:background="@color/orange"
+        android:layout_below="@+id/btnShowAddress"
+        android:layout_alignParentStart="true"
+        android:textColor="@android:color/white"
+        android:layout_alignParentLeft="true"
+        android:padding="20dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginBottom="15dp" />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvAddress"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="134dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:text="Testing Space"
+        android:layout_below="@id/btnStartGuide"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        />
+
+</RelativeLayout>
